@@ -1,0 +1,20 @@
+
+
+<ad unit-id="adunit-7eba9660cf43ffe3" ad-type="grid" grid-opacity="0.8" grid-count="5" ad-theme="white"></ad>
+
+<view class="topview">
+
+<text class="bottomtext">不定期更新，分类持续增加中</text>
+
+</view>
+
+<view class="schoollist">
+  <block wx:for="{{categorylist}}" wx:key="item">
+    <view class="school-list">
+        <view class="school-list-info" index="{{index}}">
+          <image class="school-list-photo" src="{{item.pictureUrl}}" bindtap="topictureDeail" data-categerylist= "{{item.categorydatabase}}" />
+          <text class="school-list-desc" bindtap="topictureDeail" data-categerylist= "{{item.categorydatabase}}">{{item.categoryname}}</text>
+        </view>
+    </view>
+  </block>
+</view>

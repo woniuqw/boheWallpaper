@@ -1,0 +1,211 @@
+.container {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 20rpx;
+  padding-bottom: 0rpx;
+  width: 100%;
+  overflow-x: hidden;
+}
+/* .u-wrp-bnr {
+
+  height: 300rpx;
+  position: absolute;
+  top: 15rpx;
+  width: 100%;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+
+} */
+
+/* .u-img-slide{
+
+  height: 300rpx;
+  border-radius: 10px;
+  width: 97%;
+  height: 100%;
+ }  */
+
+.tuijiantextview{
+  height: 60rpx;
+  position: absolute;
+  top: 300rpx;
+  left: 10rpx;
+  right: 10rpx;
+  /* background-color: antiquewhite; */
+  text-align: center;
+  color: black;
+}
+
+
+/* 礼品列表 */
+.giftListView {
+  width: 100%;
+  bottom: 0;
+  top: 350rpx;
+  position: absolute;
+}
+/* cell */
+.item {
+  width: 100% - 10;
+  height: 200rpx;
+  pointer-events: fill;
+  background-color: white;
+  border: 5px solid #F6F6F6;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.pictureView{
+
+  width: 100rpx;
+  height: 200rpx;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+
+}
+
+.iconImageView{
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 10px;
+  flex-grow:1;
+  display: flex;
+  flex-basis: 150rpx;
+}
+
+.desView{
+  width: 100rpx;
+  height: 200rpx;
+  border-radius: 10px;
+  flex-grow:2;
+  display: flex;
+  flex-direction: column;
+}
+
+.fistView{
+
+  border-radius: 10px;
+  flex-grow:1;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.titlestr{
+
+  flex-grow:1;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  margin-left: 50rpx;
+  flex-grow:1;
+  display: flex;
+}
+
+.titletype{
+
+  font-size: 20rpx;
+  border-width: 0.5rpx;
+  border-color: black;
+  margin-top: 25rpx;
+  margin-right: 380rpx;
+  margin-left: 5rpx;
+  flex-grow:1;
+  border-style:solid;
+  height: 25rpx;
+  text-align: center;
+  border-radius: 5rpx;
+}
+
+
+.secondView{
+
+  border-radius: 10px;
+  flex-grow:1;
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.meitiType{
+  font-size: 20rpx;
+  border-width: 0.5rpx;
+  margin-left: 50rpx;
+  height: 30rpx;
+  width: 100rpx;
+  text-align: center;
+  background-color: #C4F2FB;
+  border-radius: 5rpx;
+}
+
+.meititext{
+  color:#3DBED7;
+}
+
+.veticleLine{
+
+  margin-left: 10rpx;
+  height: 30rpx;
+  width: 0.5rpx;
+  background-color: black;
+  align-items: center;
+}
+
+.meititypedes{
+
+  font-size: 20rpx;
+  border-width: 0.5rpx;
+  margin-left: 10rpx;
+  margin-right: 90rpx;
+  height: 30rpx;
+  width: 120rpx;
+  text-align: center;
+  background-color: #FEE3DD;
+  border-radius: 5rpx;
+
+}
+
+.typedestext{
+color: #FF5A36;
+
+}
+
+
+.thirdView{
+  border-radius: 10px;
+  flex-grow:3;
+}
+
+.meitidetaildes{
+
+  font-size: 23rpx;
+  margin-left: 50rpx;
+  text-align: left;
+  margin-top: 20rpx;
+}
+
+.detailtext{
+  color: #808080;
+}
+/* 
+.rightButtonView{
+
+  width: 100rpx;
+  border-radius: 10px;
+  flex-grow:1;
+} */
+/* 
+.costomButton{
+    background-color: #09aa52; 
+    color: white;
+    text-align: center;
+    height: 60rpx;
+    margin-top: 50rpx;
+    font-size: 25rpx;
+} */

@@ -1,0 +1,20 @@
+.container {
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-top: 0rpx;
+  padding-bottom: 0rpx;
+  width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(238, 241, 245);
+  
+}
+.gongzhongahowebview{
+  width: 100%;
+  top: 200rpx;
+  background-color: teal;
+  position: absolute;
+}

@@ -1,0 +1,5 @@
+
+
+<view class="container">
+     <image src='{{cotomlink}}' class='gongzhongahowebview' mode='scaleToFill'></image>
+</view>

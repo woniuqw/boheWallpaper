@@ -1,0 +1,32 @@
+/* miniprogram/pages/categorypictures/categorypictures.wxss */
+
+
+
+.schoollist{
+  margin-top: 20rpx;
+}
+.school-list-info{
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  position: relative;
+}
+
+.school-list-photo{
+  width: 225rpx;
+  height: 460rpx;
+  border-radius: 5px;
+}
+.school-list-desc{
+  display: block;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  width: 94%;
+  text-align: center;
+  font-size: 25rpx;
+  padding: 10rpx;
+  opacity: 0.7;
+}

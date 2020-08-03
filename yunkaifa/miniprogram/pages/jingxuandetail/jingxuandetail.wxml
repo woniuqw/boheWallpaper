@@ -1,0 +1,36 @@
+
+<view class='container'>
+
+
+      
+        <image class="photo" src="{{pictureUrl}}"/>
+         
+        <view class="bacbeijing"> 
+
+         <image class="backvcimage" src="../../images/fanhui.png"  style="margin: 0 auto;" bindtap="backaction" />
+
+        <image class="backvchome" src="../../images/combactohome.png"  style="margin: 0 auto;" bindtap="backachome" />
+
+       </view>
+
+
+ <view  class="dowloadView" style="position:fixed">
+
+        <button  class="todowloadView" bindtap="todowload" >
+       
+        <image class="dowloadpicture" src="../../images/download.png"  style="margin: 0 auto;" />
+        <text class="dowloadtext">下 载</text>
+
+        </button>
+        
+        <!-- <button></button> -->
+         <button  class="fenxaingView" open-type='share'>
+         
+        <image class="fenxaingpicture" src="../../images/fenxaing.png"  style="margin: 0 auto;" />
+        <text class="fenxaingtext">分享给好友</text>
+
+        </button>
+
+ </view>
+
+</view>

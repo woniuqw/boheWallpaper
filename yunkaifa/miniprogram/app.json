@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/find/index",
+    "pages/index/index",
+    "pages/my/index",
+    "pages/gongzhonghao/gongzhonghao",
+    "pages/picturedetail/picturedetail",
+    "pages/categorypictures/categorypictures",
+    "pages/jingxuan/jingxuan",
+    "pages/jingxuandetail/jingxuandetail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#e64340",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/find/index",
+        "iconPath": "images/icon_yxindex.png",
+        "selectedIconPath": "images/icon_yxindexsel.png",
+        "text": "壁纸"
+      },
+      {
+        "pagePath": "pages/jingxuan/jingxuan",
+        "iconPath": "images/jingxuansel.png",
+        "selectedIconPath": "images/jingxuan.png",
+        "text": "精品"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "iconPath": "images/icon_fenlei.png",
+        "selectedIconPath": "images/icon_fenleisel.png",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/icon_yxfind.png",
+        "selectedIconPath": "images/icon_yxfindsel.png",
+        "text": "推荐"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

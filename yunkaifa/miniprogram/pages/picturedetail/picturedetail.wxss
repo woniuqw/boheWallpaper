@@ -1,0 +1,136 @@
+/* miniprogram/pages/picturedetail/picturedetail.wxss */
+page{
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.photo{
+  margin-top: 0rpx;
+  margin-left: 0rpx;
+  height: 100%;
+  width: 100%; 
+}
+
+
+
+
+.backvc{
+
+  height: 100rpx;
+  width: 150rpx;
+  position: absolute;
+  left: 20rpx;
+  top: 65rpx;
+  /* background-color: rgb(26, 192, 192); */
+  opacity: initial;
+  display: flex;
+  flex-flow: row;
+
+}
+
+.bacbeijing{
+  height: 70rpx;
+  width: 200rpx;
+  position: fixed;
+  align-items: center;
+  left: 10rpx;
+  top: 90rpx;
+  background-color:rgba(210, 230, 230, 0.5);
+  border-radius: 40px;
+}
+
+.backvcimage{
+
+  height: 70rpx;
+  width: 70rpx;
+  position: absolute;
+  align-items: center;
+  left: 0rpx;
+  top: 0rpx;
+
+}
+
+.backvchome{
+
+  height: 80rpx;
+  width: 80rpx;
+  position: absolute;
+  align-items: center;
+  right: -6rpx;
+  top: -5rpx;
+
+}
+
+.dowloadView{
+
+  height: 100rpx;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(210, 230, 230, 0.5);
+  display: flex;
+  flex-flow: row;
+  opacity: initial;
+}
+
+.todowloadView{
+
+  /* background-color: rgb(35, 245, 175); */
+  width: 50%;
+
+}
+
+.fenxaingView{
+
+  width: 50%;
+
+}
+
+.dowloadpicture{
+  position: absolute;
+  top: 5rpx;
+  left: 46%;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.dowloadtext{
+  position: absolute;
+  bottom: 3rpx;
+  left: 0%;
+  width: 100%;
+  height: 50rpx;
+  font-size: 25rpx;
+  text-align: center;
+}
+
+.fenxaingpicture{
+
+  position: absolute;
+  top: 5rpx;
+  right: 47%;
+  width: 40rpx;
+  height: 40rpx;
+ 
+
+}
+
+.fenxaingtext{
+
+  position: absolute;
+  bottom: 3rpx;
+  left: 0;
+  width: 100%;
+  height: 50rpx;
+  font-size: 25rpx;
+  text-align: center;
+
+}

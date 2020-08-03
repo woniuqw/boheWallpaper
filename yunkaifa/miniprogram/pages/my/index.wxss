@@ -1,0 +1,51 @@
+
+
+.topview{
+  height: 80rpx;
+  background-color:#fff;
+  margin-top: 20rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  align-items: center;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column;
+ }
+ 
+ .bottomtext{
+  margin-top: 20rpx;
+  font-size: 25rpx;
+  text-align: center;
+  color: rgb(163, 151, 151); 
+}
+
+
+
+.schoollist{
+  margin-top: 10rpx;
+}
+.school-list-info{
+  float: left;
+  margin-left: 40rpx;
+  margin-top: 20rpx;
+  position: relative;
+  /* border-radius: 10px; */
+}
+
+.school-list-photo{
+  width: 320rpx;
+  height: 180rpx;
+  border-radius: 10rpx;
+  /* padding: 10rpx; */
+}
+
+.school-list-desc{
+  display: block;
+  color: #fff;
+  position: absolute;
+  bottom: 45%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 28rpx;
+}

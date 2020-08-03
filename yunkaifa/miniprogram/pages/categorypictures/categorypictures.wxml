@@ -1,0 +1,11 @@
+
+<ad unit-id="adunit-096d683fa0e0a6af" ad-type="grid" grid-opacity="0.8" grid-count="5" ad-theme="white"></ad>
+<view class="schoollist">
+  <block wx:for="{{pictureList}}" wx:key="item">
+    <view class="school-list">
+        <view class="school-list-info" index="{{index}}">
+          <image class="school-list-photo" src="{{item.pictureUrl}}" bindtap="topictureDeail" data-src= "{{item.pictureUrl}}" />
+        </view>
+    </view>
+  </block>
+</view>

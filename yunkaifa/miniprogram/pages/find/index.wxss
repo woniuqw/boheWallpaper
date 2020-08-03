@@ -1,0 +1,87 @@
+/* .container {
+  background-color: aliceblue;
+} */
+
+/* .bottomview{
+
+  height: 220rpx;
+  background-color:rgb(194, 70, 70);
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  align-items: center;
+  border-radius: 10px;
+
+} */
+
+.topview{
+ /* width: 80%; */
+ height: 130rpx;
+ background-color:rgb(255,255,255);
+ margin-top: 20rpx;
+ margin-left: 10rpx;
+ margin-right: 10rpx;
+ align-items: center;
+ border-radius: 10px;
+ display: flex;
+ flex-flow: column;
+
+}
+
+.toptext{
+
+  margin-top: 5rpx;
+  font-size: 35rpx;
+  text-align: center;
+  color: rgb(56, 52, 52); 
+
+}
+
+.bottomtext{
+  margin-top: 10rpx;
+  font-size: 25rpx;
+  text-align: center;
+  color: rgb(163, 151, 151); 
+}
+
+.schoollist{
+  margin-top: 20rpx;
+}
+
+.guanggao{
+
+  position: absolute;
+  top: 20rpx;
+  left: 0;
+  width: 100%;
+  height: 50rpx;
+  font-size: 25rpx;
+  text-align: center;
+  color: rgb(192, 32, 32);
+
+}
+.school-list-info{
+  float: left;
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  position: relative;
+}
+
+.school-list-photo{
+  width: 225rpx;
+  height: 460rpx;
+  border-radius: 5px;
+}
+.school-list-desc{
+  display: block;
+  background-color: #000;
+  color: #fff;
+  position: absolute;
+  bottom: 3%;
+  left: 0;
+  width: 94%;
+  text-align: center;
+  font-size: 25rpx;
+  padding: 10rpx;
+  opacity: 0.7;
+}

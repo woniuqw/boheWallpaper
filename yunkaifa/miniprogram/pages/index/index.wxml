@@ -1,0 +1,101 @@
+
+<view class="container">
+
+
+
+<!-- 轮播图 -->
+ <!-- <swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+  <block wx:for="{{bnrUrl}}" wx:for-index="index">
+    <swiper-item>
+      <image src='{{item.urlstr}}' class='u-img-slide' mode='scaleToFill'></image>
+      
+    </swiper-item>
+  </block>
+</swiper> -->
+
+
+
+<ad unit-id="adunit-67d149d96603007b" ad-type="grid" grid-opacity="0.8" grid-count="5" ad-theme="white"></ad>
+
+<!-- 推荐 -->
+<view  class="tuijiantextview"> 
+<text >-推荐-</text>
+</view>
+
+<!-- <view>
+
+
+</view> -->
+
+<!-- 列表 -->
+<view class='giftListView'>
+
+ <view class="item" wx:for="{{costmlist}}" wx:key="_id">
+
+  <view class="pictureView">
+      <image mode="aspectFill" class="iconImageView" src="{{item.ProductPic}}" data-id='{{item.id}}' bindtap="toDetailsTap">
+      </image>
+   </view>
+
+<!-- 中间的描述视图 -->
+  <view class="desView">
+     
+     <!-- 顶部view -->
+      <view class="fistView">
+
+          <view class='titlestr'>
+          <text>{{item.title}}</text>
+          </view>
+
+          <view class='titletype'>
+          <text>{{item.haotype}}</text>
+          </view>
+
+      </view>
+
+    <!-- 中部view -->
+      <view class="secondView">
+
+           <view class='meitiType'>
+           <text class="meititext">{{item.meititype}}</text>
+           </view>
+
+            <view class='veticleLine'>
+           </view>
+
+           <view class='meititypedes'>
+           <text class="typedestext">{{item.typedes}}</text>
+           </view>
+
+
+      </view>
+
+     <!-- 底部view -->
+     <view class="thirdView">
+
+           <view class='meitidetaildes'>
+           <text class='detailtext'>{{item.detaildes}}</text>
+          </view>
+
+      </view>
+
+  </view>
+     
+     <!-- 右面的按钮视图 -->
+     <!-- <view class="rightButtonView">
+
+     <button class="costomButton" bindtap="tosee"  style="width:130rpx " data-list="{{costmlist}}" data-id='{{item._id}}' >查 看</button>
+
+     </view> -->
+     
+
+  </view>
+<!-- <ad unit-id="adunit-fd739010c65168d5"></ad> -->
+
+
+
+</view>
+
+
+
+</view>
